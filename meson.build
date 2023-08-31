@@ -7,7 +7,7 @@ project(
     ],
     default_options: [
         'prefix=/usr',
-        'sysconfdir=/etc',
+        'sysconfdir=/usr/share',
     ],
 )
 
