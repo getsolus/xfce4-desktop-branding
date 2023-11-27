@@ -1,4 +1,4 @@
-xfce_base_dir = join_paths(path_datadir, 'xdg', 'xdg-solus-xfce', 'xfce4')
+xfce_base_dir = join_paths(path_datadir, 'xdg', 'xfce4')
 panel_dir = join_paths(xfce_base_dir, 'panel')
 xfconf_dir = join_paths(xfce_base_dir, 'xfconf', 'xfce-perchannel-xml')
 
