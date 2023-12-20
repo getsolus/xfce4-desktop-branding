@@ -22,6 +22,17 @@ install_data(
 )
 
 install_data(
+  'xfce4-notifyd.xml',
+  install_dir: xfconf_dir,
+)
+
+install_data(
   'xfwm4.xml',
   install_dir: xfconf_dir,
 )
+
+# NB: Conflicts with file shipped by xfce4-settings
+# install_data(
+#   'xsettings.xml',
+#   install_dir: xfconf_dir,
+# )
