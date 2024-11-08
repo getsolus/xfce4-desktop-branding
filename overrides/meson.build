@@ -17,11 +17,6 @@ install_data(
 )
 
 install_data(
-  'xfce4-desktop.xml',
-  install_dir: xfconf_dir,
-)
-
-install_data(
   'xfce4-notifyd.xml',
   install_dir: xfconf_dir,
 )
