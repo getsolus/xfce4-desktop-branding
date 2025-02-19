@@ -1,7 +1,7 @@
 project(
   'xfce4-desktop-branding',
   ['c'],
-  version: '1.1.0',
+  version: '1.1.1',
   license: 'GPL-2.0-only',
   default_options: [
     'prefix=/usr',
